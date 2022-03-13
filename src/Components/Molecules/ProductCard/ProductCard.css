@@ -1,0 +1,58 @@
+.gridCard {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  cursor: pointer;
+}
+
+.gridCard .imgCntnr {
+  width: 100%;
+  height: 100%;
+}
+
+.gridCard .imgCntnr img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gridCard .dtlCntnr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: var(--primColor);
+  color: white;
+  padding: 10px 15px;
+  transform: translateY(230px);
+  transition: ease-in-out 0.3s;
+}
+
+.gridCard .dtlCntnr h3 {
+  font-size: 500;
+  font-size: 18px;
+}
+
+.gridCard:hover .dtlCntnr {
+  transform: translateY(0);
+  background: #3d5e41e5;
+}
+
+.gridCard .dscrptn {
+  height: 76px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+.gridCard .yBtn.outline {
+  border: 1px solid white;
+  color: white;
+  border-radius: 0px;
+}

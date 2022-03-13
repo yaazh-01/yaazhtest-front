@@ -1,0 +1,147 @@
+header {
+  box-shadow: 0 0 10px #dddddd;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+
+header .logoContainer {
+  width: 260px;
+  /* height: 100px; */
+}
+
+header .logoContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+header .rtNavContainer {
+  /* width: calc(100% - 200px); */
+  width: 100%;
+}
+
+header .rtNavContainer .topContainer {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 9px;
+}
+
+header .rtNavContainer .srchContainer {
+  width: 40%;
+  display: flex;
+  border-radius: 100px;
+  height: 40px;
+  box-shadow: 0 0 0 1px #00000015, 0 2px 4px 1px #00000015;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+header .rtNavContainer .srchContainer input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-radius: 100px;
+  padding: 0 25px;
+}
+
+header .rtNavContainer .srchContainer .srchBtn {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 0 100px 100px 0;
+  color: var(--primColor);
+}
+
+header .rtNavContainer .topContainer {
+  justify-content: space-between;
+}
+
+header .rtNavContainer .topContainer .acVWCntnr {
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  padding: 10px;
+  background: whitesmoke;
+  margin-left: 10px;
+}
+
+header .rtNavContainer .topContainer .acVWCntnr .material-icons-outlined {
+  margin-right: 10px;
+}
+
+header .rtNavContainer .topContainer .acVWCntnr a {
+  color: black;
+  text-decoration: none;
+}
+
+header .rtNavContainer .topContainer .iconStack {
+  display: flex;
+  align-items: center;
+}
+
+header .rtNavContainer .topContainer .iconStack button {
+  margin-right: 15px;
+}
+
+header .rtNavContainer .bottomContainer {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .rtNavContainer .bottomContainer a {
+  color: black;
+  text-decoration: none;
+  margin-right: 3%;
+  position: relative;
+  font-size: 14px;
+}
+
+header .rtNavContainer .bottomContainer .ltNav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+header .rtNavContainer .bottomContainer .rtSlMda img {
+  width: 18px;
+  opacity: 0.6;
+  transition: ease-in-out 0.3s;
+}
+
+header .rtNavContainer .bottomContainer .rtSlMda img:hover {
+  opacity: 1;
+}
+
+header .rtNavContainer .bottomContainer .rtSlMda a:not(:last-child) {
+  margin-right: 15px;
+}
+
+header .rtNavContainer .bottomContainer .ltNav a.active {
+  color: var(--primColor);
+}
+
+header .rtNavContainer .bottomContainer .ltNav a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--primColor);
+  border-radius: 100px;
+}
+
+.logPopup .MuiDialogContent-root{
+  padding: 0;
+  /* min-height: 600px; */
+}

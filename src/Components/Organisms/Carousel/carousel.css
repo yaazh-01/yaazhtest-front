@@ -1,0 +1,8 @@
+.mySwiper{
+    max-height: 65vh;
+}
+
+.mySwiper img{
+    width: 100%;
+    object-fit: contain;
+}

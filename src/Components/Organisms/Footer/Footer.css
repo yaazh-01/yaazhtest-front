@@ -1,0 +1,76 @@
+.footer {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    355deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(201, 255, 201, 1) 100%
+  );
+}
+/* 
+.topFooter{
+    background: #c9ffc9;
+} */
+
+footer hr {
+  background: #7ec25f;
+}
+
+.topFooter .ftrSpCard span.material-icons {
+  width: 50px;
+  height: 50px;
+  background: var(--primColor);
+  color: white;
+  color: #c9ffc9;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.topFooter .ftrSpCard {
+  font-size: 15px;
+}
+
+.mnFooter .mnFtLogo {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mnFooter .cntctInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mnFooter .cntctInfo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(41, 41, 41);
+  margin: 0px 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.mnFooter .cntctInfo a span.material-icons {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.mnFooter .cntctInfo a:hover {
+  color: var(--primColor);
+}
+
+.cpyRtCnt a {
+  font-size: 13px;
+  color: rgb(138, 138, 138);
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.cpyRtCnt .cprtTxt {
+  color: rgb(138, 138, 138);
+  font-size: 12px;
+}

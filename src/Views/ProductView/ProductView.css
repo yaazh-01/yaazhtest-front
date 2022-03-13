@@ -1,0 +1,85 @@
+.pdtVwWrpr {
+  padding: 40px 0;
+}
+
+.pdtVwWrpr .pdtVwSldrWrpr {
+  width: 100%;
+  max-width: 550px;
+}
+
+.pdtVwWrpr .pdtDtlsWrpr {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.pdtVwWrpr .pdtDtlsWrpr .pdtName {
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+.pdtVwWrpr .pdtDtlsWrpr .pdtCtgry {
+  font-size: 15px;
+  color: gray;
+}
+
+.pdtVwWrpr .pdtDtlsWrpr h4 span {
+  font-size: 16px;
+  color: gray;
+}
+
+.pdtVwWrpr .image-gallery-left-nav .image-gallery-svg,
+.pdtVwWrpr .image-gallery-right-nav .image-gallery-svg {
+  height: 40px;
+  width: 30px;
+}
+
+.pdtVwWrpr .iptQty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 150px;
+  height: max-content;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.pdtVwWrpr .iptQty button {
+  background: whitesmoke;
+  max-width: 40px;
+  width: 100%;
+  min-width: unset;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.pdtVwWrpr .iptQty input {
+  width: 100%;
+  height: 40px;
+  border: transparent;
+  background: transparent;
+  text-align: center;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.pdtVwWrpr .byQtyWrpr {
+  display: flex;
+  align-items: end;
+}
+
+.pdtVwWrpr .byQtyWrpr .yBtn {
+  width: 150px;
+  margin-left: 20px;
+  height: 42px;
+}
+
+.pdtVwWrpr .dscrptn {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.pdtVwWrpr .image-gallery-play-button {
+  display: none;
+}
