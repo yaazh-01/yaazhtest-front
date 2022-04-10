@@ -1,0 +1,153 @@
+.cartWrapper {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  gap: 20px;
+  min-height: 100vh;
+}
+
+.cartWrapper .cartProdctsWrpr .cartCard {
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  margin-bottom: 13px;
+}
+
+.cartWrapper .cartProdctsWrpr .cartCard .pdtImg {
+  max-width: 150px;
+  width: 100%;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.cartWrapper .cartProdctsWrpr .cartCard .pdtImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cartWrapper .cartProdctsWrpr .cartCard .pdtIfoWrpr {
+  text-align: left;
+  width: 100%;
+}
+
+.cartCard .pdtIfoWrpr .qtyIptWrpr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  height: 34px;
+}
+
+.cartCard .pdtIfoWrpr .qtyIptWrpr button {
+  width: 32px;
+  height: 32px;
+  min-width: unset;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 0;
+}
+
+.cartCard .pdtIfoWrpr .qtyIptWrpr input {
+  width: 50px;
+  height: 34px;
+  text-align: center;
+}
+
+.cartCard .pdtIfoWrpr .qtyPrcWrpr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cartCard .pdtIfoWrpr h3 {
+  font-size: 20px;
+}
+
+.cartCard .pdtIfoWrpr .prcValue {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 19px;
+  margin: 0;
+}
+
+.cartCard .pdtIfoWrpr .prcValue small {
+  font-size: 12px;
+  color: gray;
+}
+
+.cartWrapper .crtAdrsWrpr {
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 10px;
+  padding: 10px 15px;
+  height: max-content;
+}
+
+.cartWrapper .crtAdrsWrpr .mh-40 {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.crtAdrsWrpr .radWrapper .adrsLcnLbl {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.crtAdrsWrpr .radWrapper:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.radWrapper .adrsLcnLbl h6 {
+  font-size: 15px;
+}
+
+.radWrapper .adrsLcnLbl p {
+  font-size: 13px;
+  margin: 0;
+}
+
+.radWrapper input:checked + .adrsLcnLbl {
+  border: 1px solid #3d5e41;
+  background: #dafbdd;
+  color: var(--primColor);
+}
+
+.pdtIfoWrpr .rmvBtnTxt {
+  color: royalblue;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.chckOtWrpr{
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  background: #e1ffe5;
+  border-radius: 10px;
+  padding: 15px 25px;
+  z-index: 999;
+}
+
+.chckOtWrpr p {
+  margin: 0;
+  text-align: left;
+}
+
+.chckOtWrpr p b{
+  color: var(--primColor);
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+.chckOtWrpr button{
+  max-width: 250px;
+}

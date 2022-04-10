@@ -23,7 +23,7 @@ const ProductView = () => {
             </label>
             <div className="iptQty">
               <Button>-</Button>
-              <input type="number" value="1" />
+              <input type="number" defaultValue="1" />
               <Button>+</Button>
             </div>
           </div>
@@ -32,7 +32,8 @@ const ProductView = () => {
             variant="secondary"
             label={
               <>
-                <span className="material-icons me-2">shopping_cart</span>Add to Cart
+                <span className="material-icons me-2">shopping_cart</span>Add to
+                Cart
               </>
             }
           />

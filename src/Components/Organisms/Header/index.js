@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Badge, Button, IconButton } from "@mui/material";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
@@ -11,6 +11,7 @@ const Header = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [loginModal, setLoginModal] = useState(false);
   const open = Boolean(anchorEl);
+  const navigate = useNavigate();
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -40,7 +41,7 @@ const Header = () => {
                   </span>
                 </Badge>
               </IconButton>
-              <IconButton>
+              <IconButton onClick={() => navigate("/cart")}>
                 <Badge badgeContent={4} color="primary">
                   <span className="material-icons-outlined">shopping_cart</span>
                 </Badge>
